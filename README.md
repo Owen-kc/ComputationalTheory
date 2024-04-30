@@ -6,7 +6,7 @@ By *Owen Casey*
 
 # Topic & Context
 
-In the numbers round of countdown, contestants choose six numbers from a predefined set (two sets of integers 1-10, one set of 25, 50, 75, 100), and use these given numbers to add, subtract, divide and multiply to achieve a result based on a randomly generated three digit number between 101-999. Each number can onlt be used once, and the operations must result in whole numbers, meaning there can't be any fractions, decimals or negative numbers at any point in the calculation process. The contestants are timed, and must complete their answer within 30 seconds.
+In the numbers round of countdown, contestants choose six numbers from a predefined set (two sets of integers 1-10, one set of 25, 50, 75, 100), and use these given numbers to add, subtract, divide and multiply to achieve a result based on a randomly generated three digit number between 101-999. Each number can only be used once, and the operations must result in whole numbers, meaning there can't be any fractions, decimals or negative numbers at any point in the calculation process. The contestants are timed, and must complete their answer within 30 seconds.
 
 ![Countdown Numbers Game](https://coolbutuseless.github.io/img/8-out-of-10-cats/left.jpg)
 
@@ -85,7 +85,7 @@ or you can install it through the VSCode extension.
 
 ### Step 4: Start Jupyter notebook
 
-You can start the jupyter notebook you can run the following command:
+To start the jupyter notebook you can run the following command:
 ```
 jupyter notebook
 ```
@@ -105,7 +105,7 @@ This project implements the Countdown numbers game from the TV show "Countdown,"
 ### Objective
 The main goals of the project are to:
 
-- Identify computationl challenges in simple games.
+- Identify computational challenges in simple games.
 - Apply different computational models to solve the game.
 - Design the solve_numbers function using an efficient approach, particularly utilizing Reverse Polish Notation (RPA) and functional programming paradigms where possible.
 - Analyze the efficiency and complexity of the algorithm.
@@ -118,8 +118,8 @@ The main goals of the project are to:
 
 ### Strategy and Methodology
 - Algorithm Design: The solve_numbers function simulates the game, enforcing rules about number usage and operations.
-- Reverse Polish Notation (RPN): Employed for efficient expression evaluation, simplifying the computational logic by eliminating the need for operation precedence and parantheses.
-- Functional Programming: The project utilizes immutable data structures and higher-order functions where possible to enhance the modularity and maintainability.
+- Reverse Polish Notation (RPN): Employed for efficient expression evaluation, simplifying the computational logic by eliminating the need for operation precedence and parentheses.
+- Functional Programming: The project utilizes immutable data structures and higher-order functions where possible to enhance modularity and maintainability.
 
 ### Implementation Details
 - `solve_numbers` Function: This method executes and outputs the result of the solution process, detailing each step taken by the functions and the entire solution. If there is more than one solution, the function outputs each solution and returns a total number of solutions at the end. 
